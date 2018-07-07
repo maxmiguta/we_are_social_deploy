@@ -1,0 +1,42 @@
+[
+{
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$Z9zGh7UN5d7F$7BmIaEjwJGmHKEvmppxMg5PJ6NBKgKPVPq/kmdM/gvM=",
+        "last_login": "2018-07-05T16:51:04.126Z",
+        "is_superuser": true,
+        "username": "max_miguta@yahoo.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "max_miguta@yahoo.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2018-07-05T10:28:26.507Z",
+        "stripe_id": "",
+        "subscription_end": "2018-07-05T10:28:26.507Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$Xem28CjzwfAN$LLHkNKJnGndJYG+k8BVAyfD50PRmhkMaFjvjb/pBDwE=",
+        "last_login": "2018-07-05T17:06:53.810Z",
+        "is_superuser": false,
+        "username": "max.miguta@gmail.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "max.miguta@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2018-07-05T10:51:58.054Z",
+        "stripe_id": "cus_DAql77hsdnMZYq",
+        "subscription_end": "2018-08-02T10:52:01.093Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]

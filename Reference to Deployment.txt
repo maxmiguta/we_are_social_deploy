@@ -1,0 +1,4 @@
+This study project has been created using the teaching material contained in the 'Deployment' unit.
+It builds upon what has already been created in "we_are_social_plan" project.
+
+That project already incorporates all the subsequent teaching units excluding only PayPal.

@@ -1,0 +1,1 @@
+web: gunicorn we_are_social_deploy.wsgi:application
