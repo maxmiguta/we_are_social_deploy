@@ -1,0 +1,254 @@
+[
+{
+    "model": "sessions.session",
+    "pk": "e0b5xnbgs3t9d93x6743j6t9iiceazrq",
+    "fields": {
+        "session_data": "NzBjZjE5NTQ4MTM1NDhlYjZmYThkNGFlNDcwN2M1ZTE1YmI1NDE1NDp7fQ==",
+        "expire_date": "2018-07-05T02:48:47.827Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "s71gk61ei7sbuw31f8ro7snk3k3ynjla",
+    "fields": {
+        "session_data": "YThkNGMwMmY1NjBlMmU3ZjlmZmY2YzhiOGQzZDliMWYxN2Y5YTY2Mjp7Il9hdXRoX3VzZXJfaGFzaCI6ImNhNWE3ZDE4YzdlMmExOTFlYjdmZjc0M2U3OGI4YmZhZTU1YjgxYzMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJhY2NvdW50cy5iYWNrZW5kcy5FbWFpbEF1dGgiLCJfYXV0aF91c2VyX2lkIjoiMSJ9",
+        "expire_date": "2018-07-05T03:02:18.101Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "x0qxnk2qx4o76tlzfdiuy153megviznq",
+    "fields": {
+        "session_data": "NzBjZjE5NTQ4MTM1NDhlYjZmYThkNGFlNDcwN2M1ZTE1YmI1NDE1NDp7fQ==",
+        "expire_date": "2018-07-19T10:52:01.119Z"
+    }
+},
+{
+    "model": "sites.site",
+    "pk": 1,
+    "fields": {
+        "domain": "example.com",
+        "name": "example.com"
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$Z9zGh7UN5d7F$7BmIaEjwJGmHKEvmppxMg5PJ6NBKgKPVPq/kmdM/gvM=",
+        "last_login": "2018-07-06T12:06:21.338Z",
+        "is_superuser": true,
+        "username": "max_miguta@yahoo.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "max_miguta@yahoo.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2018-07-05T10:28:26.507Z",
+        "stripe_id": "",
+        "subscription_end": "2018-07-05T10:28:26.507Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$Xem28CjzwfAN$LLHkNKJnGndJYG+k8BVAyfD50PRmhkMaFjvjb/pBDwE=",
+        "last_login": "2018-07-06T12:04:07.592Z",
+        "is_superuser": false,
+        "username": "max.miguta@gmail.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "max.miguta@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2018-07-05T10:51:58.054Z",
+        "stripe_id": "cus_DAql77hsdnMZYq",
+        "subscription_end": "2018-08-02T10:52:01.093Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "threads.subject",
+    "pk": 1,
+    "fields": {
+        "name": "General",
+        "description": "<p>General discussion topics</p>"
+    }
+},
+{
+    "model": "threads.subject",
+    "pk": 2,
+    "fields": {
+        "name": "Technical Support",
+        "description": "<p>Topics requesting technical support</p>"
+    }
+},
+{
+    "model": "threads.subject",
+    "pk": 3,
+    "fields": {
+        "name": "Web Development",
+        "description": "<p>Web development discussion topics</p>"
+    }
+},
+{
+    "model": "threads.thread",
+    "pk": 1,
+    "fields": {
+        "name": "Test thread",
+        "user": [
+            "max_miguta@yahoo.com"
+        ],
+        "subject": 1,
+        "created_at": "2018-07-05T10:45:40Z"
+    }
+},
+{
+    "model": "threads.thread",
+    "pk": 2,
+    "fields": {
+        "name": "What's currently the best editor for web development?",
+        "user": [
+            "max_miguta@yahoo.com"
+        ],
+        "subject": 3,
+        "created_at": "2018-07-05T16:52:20Z"
+    }
+},
+{
+    "model": "threads.post",
+    "pk": 1,
+    "fields": {
+        "thread": 1,
+        "comment": "<p>Test post</p>",
+        "user": [
+            "max_miguta@yahoo.com"
+        ],
+        "created_at": "2018-07-05T10:48:28Z"
+    }
+},
+{
+    "model": "threads.post",
+    "pk": 2,
+    "fields": {
+        "thread": 1,
+        "comment": "<p>Second test post</p>",
+        "user": [
+            "max.miguta@gmail.com"
+        ],
+        "created_at": "2018-07-05T15:20:08.792Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2018-07-05T10:35:54.547Z",
+        "user": [
+            "max_miguta@yahoo.com"
+        ],
+        "content_type": [
+            "threads",
+            "subject"
+        ],
+        "object_id": "1",
+        "object_repr": "General",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2018-07-05T10:41:18.893Z",
+        "user": [
+            "max_miguta@yahoo.com"
+        ],
+        "content_type": [
+            "threads",
+            "subject"
+        ],
+        "object_id": "2",
+        "object_repr": "Technical Support",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2018-07-05T10:43:22.245Z",
+        "user": [
+            "max_miguta@yahoo.com"
+        ],
+        "content_type": [
+            "threads",
+            "subject"
+        ],
+        "object_id": "3",
+        "object_repr": "Web Development",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2018-07-05T10:47:04.896Z",
+        "user": [
+            "max_miguta@yahoo.com"
+        ],
+        "content_type": [
+            "threads",
+            "thread"
+        ],
+        "object_id": "1",
+        "object_repr": "Thread object",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2018-07-05T10:48:53.933Z",
+        "user": [
+            "max_miguta@yahoo.com"
+        ],
+        "content_type": [
+            "threads",
+            "post"
+        ],
+        "object_id": "1",
+        "object_repr": "Post object",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2018-07-05T16:53:08.252Z",
+        "user": [
+            "max_miguta@yahoo.com"
+        ],
+        "content_type": [
+            "threads",
+            "thread"
+        ],
+        "object_id": "2",
+        "object_repr": "Thread object",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
