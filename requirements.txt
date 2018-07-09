@@ -1,9 +1,1 @@
 -r requirements/staging.txt
-
-pip install arrow
-pip install django-forms-bootstrap
-pip install stripe
-
-pip install django-emoticons
-pip install django-tinymce
-pip install django-debug-toolbar
