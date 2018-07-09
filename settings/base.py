@@ -4,7 +4,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: Enter your own SECRET_KEY here
-SECRET_KEY = '<SECRET_KEY>'
+SECRET_KEY = '@9i(z176_cucg(3unn798*184d9vax!p$+4u56fo%4_3y2@j=@'
 
 ALLOWED_HOSTS = []
 SITE_ID = 1
