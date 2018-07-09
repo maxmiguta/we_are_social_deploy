@@ -10,3 +10,4 @@ six==1.11.0
 wheel==0.31.1
 stripe
 gunicorn
+whitenoise==3.2
