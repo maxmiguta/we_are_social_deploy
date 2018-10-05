@@ -80,6 +80,8 @@ def login(request):
     return render(request, 'login.html', args)
 
 
+# The 'profile' view handles taking a new user to their profile page after registering (or logging in)
+# The '@login_required' decorator is used to restrict access
 @login_required(login_url='/login/')
 def profile(request):
     return render(request, 'profile.html')
